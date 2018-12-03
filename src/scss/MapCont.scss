@@ -1,0 +1,22 @@
+@import 'allShared';
+
+.mapDiv{
+	position: absolute;
+	top: $mapTop;
+	left: $mapLeft;
+	height: 75%;
+	width: $mapWidth;
+}
+
+.header{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: $headerHt;
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+	font-size: 2em;
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+@import 'allShared';
+
+$borderColor: rgba(96, 152, 242, 1);
+
+.mainCont{
+	position: absolute;
+	left: $mapLeft + $mapWidth + 2%;
+	top: $mapTop;
+	font-family: Helvetica;
+}
+
+.infoCont{
+	border: 1px solid $borderColor;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.title{
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
